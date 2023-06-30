@@ -1,0 +1,22 @@
+.typewriter-cursor{
+    visibility: hidden;
+}
+.animate{
+    animation: slideTop 1.5s ease forwards;
+}
+.animate-ul li{
+    animation: slideTop 1.5s ease forwards;
+}
+@keyframes slideTop {
+    0%{
+        opacity: 0;
+        transform: translateY(75px);
+    }
+    50%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
