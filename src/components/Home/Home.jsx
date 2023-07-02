@@ -1,6 +1,9 @@
 import AboutMe from "../AboutMe/AboutMe";
-import Header from "../Header/Header";
+import Contact from "../Contact/Contact";
+import Footer from "../Footer/Footer";
 import Navbar from "../Navbar/Navbar";
+import Projects from "../Projects/Projects";
+import Skills from "../Skills/Skills";
 
 
 const Home = () => {
@@ -9,6 +12,10 @@ const Home = () => {
           <Navbar></Navbar>
           {/* <Header></Header> */}
           <AboutMe></AboutMe>
+          <Skills></Skills>
+          <Projects></Projects>
+          <Contact></Contact>
+          <Footer></Footer>
         </div>
     );
 };

@@ -1,0 +1,10 @@
+.jumping-div {
+    background-color: #070911;
+    position: relative;
+    top: 0;
+    transition: top 0.3s ease-in-out;
+  }
+  
+  .jumping-div:hover {
+    top: -10px; /* Adjust the value to control the jump height */
+  }
